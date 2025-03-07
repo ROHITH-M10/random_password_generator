@@ -1,17 +1,16 @@
 {
     "name": "Random Password Generator",
     "short_name": "Password Generator",
-    "start_url": "/index.html",
+    "start_url": "index.html",
+    "display_override": ["fullscreen", "minimal-ui"],
     "display": "standalone",
     "orientation": "portrait-primary",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
     "icons": [
         {
-            "src": "/favicon.png",
+            "src": "./favicon.png",
             "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "any"
+            "type": "image/png"
         }
-    ]
+    ],
+    "purpose": "any"
 }
